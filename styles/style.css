@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#4f4ffc), color-stop(30%), to(#b6afaf));
+  background-image: linear-gradient(to bottom right, #4f4ffc, 30%, #b6afaf);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.calculator {
+  background-color: #ece6e6;
+  -webkit-box-shadow: 15px 15px 50px  #4b4b4b;
+          box-shadow: 15px 15px 50px  #4b4b4b;
+  width: 360px;
+  height: 420px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  border-radius: 10px;
+}
+
+.keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.input {
+  text-align: right;
+  height: 60px;
+  font-size: 2.3em;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.outcome {
+  text-align: right;
+  height: 2em;
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-right: 5px;
+}
+
+button {
+  background-color: #aca9a9;
+  width: 45px;
+  height: 45px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border-style: none;
+  outline: none;
+  font-size: 1em;
+  position: relative;
+  left: 10px;
+}
+
+.equals {
+  background-color: #f1c36b;
+  width: 112px;
+  font-size: 2em;
+  border-radius: 10%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  font-size: 0.7em;
+  background-color: #a1a1a1;
+}
+
+.keyboard > .number {
+  background-color: #dbdada;
+}
+
+.keyboard > .number:active {
+  font-size: 0.7em;
+  background-color: #d6d3d3;
+}
+
+.empty {
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */

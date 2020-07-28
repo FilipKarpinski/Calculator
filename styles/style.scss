@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right,rgb(79, 79, 252),30%,rgb(182, 175, 175));
+    background-repeat: no-repeat;
+    height: 100%
+}
+.calculator{
+    background-color: rgb(236, 230, 230);
+    box-shadow:  15px 15px 50px  #4b4b4b;
+    width: 360px;
+    height: 420px;
+    margin: auto;
+    position: relative;
+    top : 100px;
+    border-radius: 10px;
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    text-align: right;
+    height:60px;
+    font-size: 2.3em;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.outcome{
+    text-align: right;
+    height:2em;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+button{
+    background-color: rgb(172, 169, 169);
+    width:45px;
+    height:45px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border-style: none;
+    outline: none;
+    font-size: 1em;
+    position: relative;
+    left: 10px
+}
+.equals{
+    background-color: rgb(241, 195, 107);
+    width:112px;
+    font-size: 2em;
+    border-radius: 10%;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    font-size: 0.7em;
+    background-color: rgb(161, 161, 161);
+}
+
+.keyboard>.number{
+    background-color: rgb(219, 218, 218);
+}
+.keyboard>.number:active{
+    font-size: 0.7em;
+    background-color: rgb(214, 211, 211);
+}
+.empty{
+    visibility: hidden;
+}
